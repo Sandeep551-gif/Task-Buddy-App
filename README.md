@@ -1,3 +1,94 @@
+# TaskBuddy – A Simple and Efficient Task Management App
+
+TaskBuddy is a React + Vite-based task management application that allows users to add, track, and manage their daily tasks easily.  
+This project demonstrates core React concepts like components, props, state, hooks, and file structuring.
+
+---
+
+## 🚀 Features
+- Add new tasks  
+- Mark tasks as complete  
+- Delete tasks  
+- Progress tracking  
+- Responsive UI  
+- Local storage support (tasks persist even after refresh)
+
+---
+
+## 🛠️ Tech Stack
+- **React**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS**
+- **Local Storage API**
+
+---
+
+## 📂 Folder Structure
+src/
+│── components/
+│ ├── TaskForm.jsx
+│ ├── TaskList.jsx
+│ ├── ProgressTracker.jsx
+│── App.jsx
+│── main.jsx
+│── index.css
+
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Sandeep551-gif/Task-Buddy-App.git
+
+# 2. Install dependencies
+cd Task-Buddy-App
+npm install
+
+# 3. Start the development server
+npm run dev
+
+## 📸 TaskBuddy Screenshots 
+### 🔹 Home Page
+![Home Page](./screenshots/home-page.png)
+
+### 🔹 Progress Tracker
+![Progress Tracker](./screenshots/progress-tracker.png)
+
+
+💡 Future Enhancements
+
+Dark mode
+
+Drag-and-drop tasks
+
+User authentication
+
+Backend integration (Node.js)
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+📄 License
+
+This project is open-source and available under the MIT License.
+
+
+---
+
+# ✔️ **After creating README.md, upload it to GitHub**
+Run:
+
+```bash
+git add README.md
+git commit -m "Added professional README"
+git push
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
